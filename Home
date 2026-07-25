@@ -1,2 +1,17 @@
+# Initialize local tracking
+git init
+
+# Stage and commit your project files
+git add .
+git commit -m "First code upload"
+
+# Rename your primary execution branch to main
+git branch -M main
+
+# Link your local files to your online GitHub location
+git remote add origin https://github.com
+
+# Push your code to the cloud
+git push -u origin main
 <html>
 Welcome</html>
